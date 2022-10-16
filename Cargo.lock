@@ -42,6 +42,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "getch"
+version = "0.1.0"
+dependencies = [
+ "termios",
+]
+
+[[package]]
 name = "getrandom"
 version = "0.2.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -124,9 +131,9 @@ dependencies = [
 name = "snake"
 version = "1.0.1"
 dependencies = [
+ "getch",
  "rand",
  "terminal_size",
- "termios",
 ]
 
 [[package]]

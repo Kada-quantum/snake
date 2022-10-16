@@ -6,7 +6,6 @@ use std::thread;
 
 use rand::prelude::*;
 
-mod getch;
 mod snake;
 use snake::{Directions, Food, Snake};
 

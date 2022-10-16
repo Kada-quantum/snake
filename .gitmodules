@@ -1,0 +1,3 @@
+[submodule "getch"]
+	path = getch
+	url = https://github.com/Kada-quantum/getch.git
